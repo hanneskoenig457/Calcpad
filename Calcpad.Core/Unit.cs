@@ -466,6 +466,7 @@ namespace Calcpad.Core
                 {"h",    h},
                 {"d",    h.Scale("d", 24)},
                 {"w",    h.Scale("w", 7 * 24)},
+                {"Mon",  h.Scale("Mon", 730)},
                 {"y",    h.Scale("y", 365 * 24)},
                 {"kmh",  new(m.Shift(3) / h, "kmh")},
                 {"mph",  new(mi / h, "mph")},
